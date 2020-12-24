@@ -32,6 +32,15 @@
           <e p="Factory.cs" t="Include" />
           <e p="FurnaceState.cs" t="Include" />
           <e p="ILoader.cs" t="Include" />
+          <e p="images" t="Include">
+            <e p="belt.png" t="Include" />
+            <e p="bucket.png" t="Include" />
+            <e p="excavator.png" t="Include" />
+            <e p="furnace.png" t="Include" />
+            <e p="worker.png" t="Include" />
+          </e>
+          <e p="Paths.cs" t="Include" />
+          <e p="Randomizer.cs" t="Include" />
           <e p="Worker.cs" t="Include" />
         </e>
       </e>

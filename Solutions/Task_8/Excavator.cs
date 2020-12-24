@@ -9,6 +9,7 @@ namespace Solutions.Task_8
         public bool Busy { get; set; }
         public Point Position { get; set; }
         public Point BeginPosition { get; set; }
+        private string Path { get; } = Paths.Excavator;
         
         private object Locker { get; } = new object();
         
@@ -20,6 +21,7 @@ namespace Solutions.Task_8
                 Thread.Sleep(FuelVolume);
                 if (furnace.State == FurnaceState.Overheat)
                 {
+                    furnace.FuelVolume = FuelVolume;
                     furnace.State = FurnaceState.Working;
                 }
                 Busy = false;

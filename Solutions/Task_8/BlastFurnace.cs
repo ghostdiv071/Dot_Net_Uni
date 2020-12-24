@@ -1,27 +1,44 @@
-﻿using System;
+﻿using System.Diagnostics;
 
 namespace Solutions.Task_8
 {
     public class BlastFurnace
     {
-        private delegate void LoadHandler();
-        private event LoadHandler LoadFuel;
-        
-        private delegate void CoolingHandler();
-        private event CoolingHandler CoolDown;
-        
-        private delegate void UpdateHandler(FurnaceState state);
-        private event UpdateHandler Update;
-        
         public FurnaceState State { get; set; }
-        private Random _random { get; } = new Random();
         private double OverheatChance { get; } = 0.25;
-        private bool CanWork { get; set; } = false;
+        public long FuelVolume { get; set; } = 1000;
+        private string Path { get; } = Paths.Furnace;
+            
+        public delegate void OverheatHandler(BlastFurnace furnace);
+        public event OverheatHandler Overheat;
+        
+        public delegate void OutOfFuelHandler(BlastFurnace furnace);
+        public event OutOfFuelHandler OutOfFuel;
 
-        public void UpdateState(FurnaceState state)
+        public void Work()
         {
-            State = state;
-            Update?.Invoke(state);
+            var stopWatch = new Stopwatch();
+            while (State == FurnaceState.Working)
+            {
+                stopWatch.Start();
+                if (Randomizer.IsHappened(OverheatChance))
+                {
+                    State = FurnaceState.Overheat;
+                    Overheat?.Invoke(this);
+                    stopWatch.Stop();
+                    FuelVolume -= stopWatch.ElapsedMilliseconds * 10;
+                }
+
+                if (FuelVolume == 0)
+                {
+                    State = FurnaceState.Empty;
+                    OutOfFuel?.Invoke(this);
+                }
+                else
+                {
+                    FuelVolume -= stopWatch.ElapsedMilliseconds * 10;
+                }
+            }
         }
     }
 }

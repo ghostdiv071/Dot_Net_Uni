@@ -55,7 +55,16 @@
         <Compile Include="Task_8\Factory.cs" />
         <Compile Include="Task_8\FurnaceState.cs" />
         <Compile Include="Task_8\ILoader.cs" />
+        <Compile Include="Task_8\Paths.cs" />
+        <Compile Include="Task_8\Randomizer.cs" />
         <Compile Include="Task_8\Worker.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Task_8\images\bucket.png" />
+      <Content Include="Task_8\images\belt.png" />
+      <Content Include="Task_8\images\excavator.png" />
+      <Content Include="Task_8\images\furnace.png" />
+      <Content Include="Task_8\images\worker.png" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

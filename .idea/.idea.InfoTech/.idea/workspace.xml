@@ -8,15 +8,78 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c9dbac5-f142-4b49-9f1d-ca477592fab3" name="Default Changelist" comment="" />
+    <list default="true" id="9c9dbac5-f142-4b49-9f1d-ca477592fab3" name="Default Changelist" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/Paths.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/Randomizer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/belt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/excavator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/furnace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/worker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InfoTech/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfoTech/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InfoTech/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfoTech/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/Solutions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/Task_8/BeltLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/BeltLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/Task_8/BlastFurnace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/BlastFurnace.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/Task_8/BucketLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/BucketLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/Task_8/Excavator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/Excavator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/Task_8/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/Factory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/Task_8/Worker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/Worker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/bin/Debug/Solutions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/bin/Debug/Solutions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/bin/Debug/Solutions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/bin/Debug/Solutions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3_UI/bin/Debug/Solutions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3_UI/bin/Debug/Solutions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3_UI/bin/Debug/Solutions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3_UI/bin/Debug/Solutions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_3_UI/obj/Debug/Task_3_UI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3_UI/obj/Debug/Task_3_UI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_6_UI/bin/Debug/Solutions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_6_UI/bin/Debug/Solutions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_6_UI/bin/Debug/Solutions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_6_UI/bin/Debug/Solutions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_6_UI/obj/Debug/Task_6_UI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_6_UI/obj/Debug/Task_6_UI.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1608835851" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1608835850" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,17 +100,21 @@
         <option value="$PROJECT_DIR$/Task_6_UI/Form1.cs" />
         <option value="$PROJECT_DIR$/Task_8_UI/Form1.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/FurnaceState.cs" />
-        <option value="$PROJECT_DIR$/Solutions/Task_8/Worker.cs" />
-        <option value="$PROJECT_DIR$/Solutions/Task_8/Factory.cs" />
-        <option value="$PROJECT_DIR$/Solutions/Task_8/BlastFurnace.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/ILoader.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/Randomizer.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/Factory.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/Pathes.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/BeltLoader.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/BucketLoader.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/Excavator.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/BlastFurnace.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/Worker.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/Paths.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1lkZLwsDPguGqUmQRuDq5HOFTFv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,10 +122,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task_6_UI">
+  <component name="RunManager" selected=".NET Project.Task_8_UI">
     <configuration name="Task_3_UI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -131,7 +200,16 @@
       <workItem from="1608657389241" duration="2405000" />
       <workItem from="1608754048678" duration="8602000" />
       <workItem from="1608824212862" duration="8030000" />
+      <workItem from="1608835694966" duration="13219000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1608835810168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608835810168</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,30 +217,43 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1608297307031">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1608852363784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608297307031" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1608297307031">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608852363784" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1608852363769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608297307031" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1608297307031">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608852363769" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1608852363769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608297307031" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1608297307031">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608852363769" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1608852363784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608297307031" />
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1608570767842">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608852363784" />
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1608850916208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1608570767842" />
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1608850916208" />
     <state x="788" y="204" key="RiderGenerateDialog" timestamp="1608224608631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -171,5 +262,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608835666833" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608853454197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608853454197" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1608851918907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608851918907" />
   </component>
 </project>
