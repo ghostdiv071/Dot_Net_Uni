@@ -1,0 +1,6 @@
+C:\Users\1\RiderProjects\InfoTech\Solutions\bin\Debug\Solutions.dll
+C:\Users\1\RiderProjects\InfoTech\Solutions\bin\Debug\Solutions.pdb
+C:\Users\1\RiderProjects\InfoTech\Solutions\obj\Debug\Solutions.csprojAssemblyReference.cache
+C:\Users\1\RiderProjects\InfoTech\Solutions\obj\Debug\Solutions.csproj.CoreCompileInputs.cache
+C:\Users\1\RiderProjects\InfoTech\Solutions\obj\Debug\Solutions.dll
+C:\Users\1\RiderProjects\InfoTech\Solutions\obj\Debug\Solutions.pdb

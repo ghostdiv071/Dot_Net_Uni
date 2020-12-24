@@ -1,0 +1,13 @@
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\bin\Debug\Task_3_UI.exe.config
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\bin\Debug\Task_3_UI.exe
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\bin\Debug\Task_3_UI.pdb
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\bin\Debug\Solutions.dll
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\bin\Debug\Solutions.pdb
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\obj\Debug\Task_3_UI.csprojAssemblyReference.cache
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\obj\Debug\Task_3_UI.Properties.Resources.resources
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\obj\Debug\Task_3_UI.csproj.GenerateResource.cache
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\obj\Debug\Task_3_UI.csproj.CoreCompileInputs.cache
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\obj\Debug\Task_3_UI.csproj.CopyComplete
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\obj\Debug\Task_3_UI.exe
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\obj\Debug\Task_3_UI.pdb
+C:\Users\1\RiderProjects\InfoTech\Task_3_UI\obj\Debug\Task_3_UI.Form1.resources
