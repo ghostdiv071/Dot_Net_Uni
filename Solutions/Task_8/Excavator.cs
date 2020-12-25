@@ -7,8 +7,6 @@ namespace Solutions.Task_8
     {
         public int FuelVolume { get; } = 5000;
         public bool Busy { get; set; }
-        public Point Position { get; set; }
-        public Point BeginPosition { get; set; }
         public string Path { get; } = Paths.Excavator;
         
         private object Locker { get; } = new object();
@@ -25,7 +23,6 @@ namespace Solutions.Task_8
                     furnace.State = FurnaceState.Working;
                 }
                 Busy = false;
-                Position = BeginPosition;
             }
         }
     }

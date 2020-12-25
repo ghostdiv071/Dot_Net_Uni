@@ -9,8 +9,7 @@ namespace Solutions.Task_8
         private double OverheatChance { get; } = 0.25;
         public long FuelVolume { get; set; } = 1000;
         public string Path { get; } = Paths.Furnace;
-        public Point Position { get; set; }
-            
+        
         public delegate void OverheatHandler(BlastFurnace furnace);
         public event OverheatHandler Overheat;
         

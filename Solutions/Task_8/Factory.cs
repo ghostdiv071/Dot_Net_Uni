@@ -5,18 +5,23 @@ namespace Solutions.Task_8
 {
     public class Factory
     {
-        public BlastFurnace[] _furnaces = {new BlastFurnace(), new BlastFurnace()};
-        public Worker Worker { get; } = new Worker();
-        public ILoader BeltLoader { get; } = new BeltLoader();
-        public ILoader BucketLoader { get; } = new BucketLoader();
-        public ILoader Excavator { get; } = new Excavator();
+        public BlastFurnace[] Furnaces { get; } =
+        {
+            new BlastFurnace(), 
+            new BlastFurnace()
+        };
 
+        public ILoader BeltLoader = new BeltLoader();
+        public ILoader BucketLoader = new BucketLoader();
+        public ILoader Excavator = new Excavator();
+        public Worker Worker { get; } = new Worker();
+        
         public delegate void UpdateHandler();
         public event UpdateHandler Update;
 
         public async void StartFurnace()
         {
-            foreach (var furnace in _furnaces)
+            foreach (var furnace in Furnaces)
             {
                 furnace.Overheat += HandleOverheat;
                 furnace.OutOfFuel += HandleLoading;

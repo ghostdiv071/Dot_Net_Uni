@@ -5,9 +5,7 @@ namespace Solutions.Task_8
 {
     public class Worker
     {
-        public Point Position { private set; get; }
         public bool Busy { get; set; }
-        public Point BeginPosition { get; set; }
         public string Path { get; } = Paths.Worker;
         
         private object Locker { get; } = new object();
@@ -23,7 +21,6 @@ namespace Solutions.Task_8
                     furnace.State = FurnaceState.Working;
                 }
                 Busy = false;
-                Position = BeginPosition;
             }
         }
     }
