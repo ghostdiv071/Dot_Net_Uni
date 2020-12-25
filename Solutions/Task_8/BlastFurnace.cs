@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Drawing;
 
 namespace Solutions.Task_8
 {
@@ -7,7 +8,8 @@ namespace Solutions.Task_8
         public FurnaceState State { get; set; }
         private double OverheatChance { get; } = 0.25;
         public long FuelVolume { get; set; } = 1000;
-        private string Path { get; } = Paths.Furnace;
+        public string Path { get; } = Paths.Furnace;
+        public Point Position { get; set; }
             
         public delegate void OverheatHandler(BlastFurnace furnace);
         public event OverheatHandler Overheat;

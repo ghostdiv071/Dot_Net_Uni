@@ -8,7 +8,7 @@ namespace Solutions.Task_8
         public Point Position { private set; get; }
         public bool Busy { get; set; }
         public Point BeginPosition { get; set; }
-        private string Path { get; } = Paths.Worker;
+        public string Path { get; } = Paths.Worker;
         
         private object Locker { get; } = new object();
         

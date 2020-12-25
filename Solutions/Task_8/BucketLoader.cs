@@ -9,7 +9,7 @@ namespace Solutions.Task_8
         public bool Busy { get; set; }
         public Point Position { get; set; }
         public Point BeginPosition { get; set; }
-        private string Path { get; } = Paths.Bucket;
+        public string Path { get; } = Paths.Bucket;
 
         private object Locker { get; } = new object();
         

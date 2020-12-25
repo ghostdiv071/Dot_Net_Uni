@@ -5,17 +5,23 @@ namespace Solutions.Task_8
 {
     public class Factory
     {
-        private BlastFurnace[] _furnaces = {new BlastFurnace(), new BlastFurnace()};
-        private Worker Worker { get; } = new Worker();
-        private ILoader BeltLoader { get; } = new BeltLoader();
-        private ILoader BucketLoader { get; } = new BucketLoader();
-        private ILoader Excavator { get; } = new Excavator();
+        public BlastFurnace[] _furnaces = {new BlastFurnace(), new BlastFurnace()};
+        public Worker Worker { get; } = new Worker();
+        public ILoader BeltLoader { get; } = new BeltLoader();
+        public ILoader BucketLoader { get; } = new BucketLoader();
+        public ILoader Excavator { get; } = new Excavator();
 
-        public async void StartFurnace(int index)
+        public delegate void UpdateHandler();
+        public event UpdateHandler Update;
+
+        public async void StartFurnace()
         {
-            _furnaces[index].Overheat += HandleOverheat;
-            _furnaces[index].OutOfFuel += HandleLoading;
-            await Task.Run((() => _furnaces[index].Work()));
+            foreach (var furnace in _furnaces)
+            {
+                furnace.Overheat += HandleOverheat;
+                furnace.OutOfFuel += HandleLoading;
+                await Task.Run((() => furnace.Work()));
+            }
         }
         
         private void HandleOverheat(BlastFurnace caller)

@@ -19,33 +19,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c9dbac5-f142-4b49-9f1d-ca477592fab3" name="Default Changelist" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/Paths.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/Randomizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/belt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/bucket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/excavator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/furnace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solutions/Task_8/images/worker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_8_UI/Form1.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InfoTech/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfoTech/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InfoTech/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfoTech/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Solutions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Solutions.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solutions/Task_8/BeltLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/BeltLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solutions/Task_8/BlastFurnace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/BlastFurnace.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solutions/Task_8/BucketLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/BucketLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solutions/Task_8/Excavator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/Excavator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solutions/Task_8/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/Factory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solutions/Task_8/Paths.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/Paths.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solutions/Task_8/Worker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Task_8/Worker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/bin/Debug/Solutions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/bin/Debug/Solutions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/bin/Debug/Solutions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/bin/Debug/Solutions.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/obj/Debug/Solutions.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_3_UI/bin/Debug/Solutions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3_UI/bin/Debug/Solutions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_3_UI/bin/Debug/Solutions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3_UI/bin/Debug/Solutions.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_3_UI/obj/Debug/Task_3_UI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_3_UI/obj/Debug/Task_3_UI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_6_UI/bin/Debug/Solutions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task_6_UI/bin/Debug/Solutions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_6_UI/bin/Debug/Solutions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task_6_UI/bin/Debug/Solutions.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_6_UI/obj/Debug/Task_6_UI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task_6_UI/obj/Debug/Task_6_UI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_8_UI/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_8_UI/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_8_UI/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task_8_UI/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_8_UI/Task_8_UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Task_8_UI/Task_8_UI.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,18 +84,18 @@
         <option value="$PROJECT_DIR$/Solutions/Task_6/Tram.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_6/PublicTransport.cs" />
         <option value="$PROJECT_DIR$/Task_6_UI/Form1.cs" />
-        <option value="$PROJECT_DIR$/Task_8_UI/Form1.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/FurnaceState.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/ILoader.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/Randomizer.cs" />
-        <option value="$PROJECT_DIR$/Solutions/Task_8/Factory.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/Pathes.cs" />
-        <option value="$PROJECT_DIR$/Solutions/Task_8/BeltLoader.cs" />
-        <option value="$PROJECT_DIR$/Solutions/Task_8/BucketLoader.cs" />
-        <option value="$PROJECT_DIR$/Solutions/Task_8/Excavator.cs" />
-        <option value="$PROJECT_DIR$/Solutions/Task_8/BlastFurnace.cs" />
-        <option value="$PROJECT_DIR$/Solutions/Task_8/Worker.cs" />
         <option value="$PROJECT_DIR$/Solutions/Task_8/Paths.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/Excavator.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/BucketLoader.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/BeltLoader.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/Worker.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/Factory.cs" />
+        <option value="$PROJECT_DIR$/Solutions/Task_8/BlastFurnace.cs" />
+        <option value="$PROJECT_DIR$/Task_8_UI/Form1.cs" />
       </list>
     </option>
   </component>
@@ -200,7 +186,7 @@
       <workItem from="1608657389241" duration="2405000" />
       <workItem from="1608754048678" duration="8602000" />
       <workItem from="1608824212862" duration="8030000" />
-      <workItem from="1608835694966" duration="13219000" />
+      <workItem from="1608835694966" duration="18764000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1608835810168</created>
@@ -209,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608835810168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Commit">
+      <created>1608853473187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608853473187</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,10 +255,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608835666833" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608853454197">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1608857661394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608853454197" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608857661394" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608853504263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608853504263" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1608851918907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
