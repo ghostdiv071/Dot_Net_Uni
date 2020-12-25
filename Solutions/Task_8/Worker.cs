@@ -7,21 +7,15 @@ namespace Solutions.Task_8
     {
         public bool Busy { get; set; }
         public string Path { get; } = Paths.Worker;
-        
-        private object Locker { get; } = new object();
+        public Point Position { set; get; }
         
         public void CoolDown(BlastFurnace furnace)
         {
             Busy = true;
-            lock (Locker)
-            {
-                Thread.Sleep(3000);
-                if (furnace.State == FurnaceState.Overheat)
-                {
-                    furnace.State = FurnaceState.Working;
-                }
-                Busy = false;
-            }
+            Position = new Point(furnace.Position.X-100, furnace.Position.Y);
+            Thread.Sleep(3000);
+            furnace.State = FurnaceState.Working;
+            Busy = false;
         }
     }
 }

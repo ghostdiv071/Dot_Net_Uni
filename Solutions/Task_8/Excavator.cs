@@ -8,22 +8,16 @@ namespace Solutions.Task_8
         public int FuelVolume { get; } = 5000;
         public bool Busy { get; set; }
         public string Path { get; } = Paths.Excavator;
-        
-        private object Locker { get; } = new object();
+        public Point Position { get; set; }
         
         public void LoadFuel(BlastFurnace furnace)
         {
             Busy = true;
-            lock (Locker)
-            {
-                Thread.Sleep(FuelVolume);
-                if (furnace.State == FurnaceState.Overheat)
-                {
-                    furnace.FuelVolume = FuelVolume;
-                    furnace.State = FurnaceState.Working;
-                }
-                Busy = false;
-            }
+            Position = new Point(furnace.Position.X+100, furnace.Position.Y);
+            Thread.Sleep(FuelVolume);
+            furnace.FuelVolume = FuelVolume;
+            furnace.State = FurnaceState.Working;
+            Busy = false;
         }
     }
 }

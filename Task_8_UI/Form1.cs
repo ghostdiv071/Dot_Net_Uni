@@ -19,7 +19,7 @@ namespace Task_8_UI
         public Form1()
         {
             InitializeComponent();
-            Factory.StartFurnace();
+            //Factory.StartFurnace();
             Factory.Update += Repaint;
         }
         
@@ -30,8 +30,7 @@ namespace Task_8_UI
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            _graphics = e.Graphics; 
-            //_graphics.Clear(Color.White);
+            _graphics = e.Graphics;
             foreach (var furnace in Factory.Furnaces)
             {
                 Drawing(100, 100, new Point(10,10), Paths.Furnace);

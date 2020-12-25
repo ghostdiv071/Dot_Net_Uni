@@ -1,15 +1,12 @@
-﻿using System.Threading;
+﻿using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Solutions.Task_8
 {
     public class Factory
     {
-        public BlastFurnace[] Furnaces { get; } =
-        {
-            new BlastFurnace(), 
-            new BlastFurnace()
-        };
+        public List<BlastFurnace> Furnaces { get; } = new List<BlastFurnace>();
 
         public ILoader BeltLoader = new BeltLoader();
         public ILoader BucketLoader = new BucketLoader();
@@ -19,14 +16,11 @@ namespace Solutions.Task_8
         public delegate void UpdateHandler();
         public event UpdateHandler Update;
 
-        public async void StartFurnace()
+        public async void StartFurnace(BlastFurnace furnace)
         {
-            foreach (var furnace in Furnaces)
-            {
-                furnace.Overheat += HandleOverheat;
-                furnace.OutOfFuel += HandleLoading;
-                await Task.Run((() => furnace.Work()));
-            }
+            furnace.Overheat += HandleOverheat;
+            furnace.OutOfFuel += HandleLoading;
+            await Task.Run(furnace.Work);
         }
         
         private void HandleOverheat(BlastFurnace caller)
@@ -36,6 +30,7 @@ namespace Solutions.Task_8
                 Thread.Sleep(1000);
             }
             Worker.CoolDown(caller);
+            Update?.Invoke();
         }
         
         private void HandleLoading(BlastFurnace caller)
@@ -43,14 +38,17 @@ namespace Solutions.Task_8
             if (!BeltLoader.Busy)
             {
                 BeltLoader.LoadFuel(caller);
+                Update?.Invoke();
             }
             else if (!BucketLoader.Busy)
             {
                 BucketLoader.LoadFuel(caller);
+                Update?.Invoke();
             }
             else if (!Excavator.Busy)
             {
                 Excavator.LoadFuel(caller);
+                Update?.Invoke();
             }
             else
             {

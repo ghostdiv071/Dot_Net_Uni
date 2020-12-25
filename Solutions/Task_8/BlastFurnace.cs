@@ -5,9 +5,10 @@ namespace Solutions.Task_8
 {
     public class BlastFurnace
     {
-        public FurnaceState State { get; set; }
-        private double OverheatChance { get; } = 0.25;
-        public long FuelVolume { get; set; } = 1000;
+        public FurnaceState State { get; set; } = FurnaceState.Working;
+        private double OverheatChance { get; } = 0.1;
+        public long FuelVolume { get; set; } = 10000;
+        public Point Position { set; get; }
         public string Path { get; } = Paths.Furnace;
         
         public delegate void OverheatHandler(BlastFurnace furnace);
@@ -15,6 +16,11 @@ namespace Solutions.Task_8
         
         public delegate void OutOfFuelHandler(BlastFurnace furnace);
         public event OutOfFuelHandler OutOfFuel;
+        
+        public BlastFurnace(Point position)
+        {
+            Position = position;
+        }
 
         public void Work()
         {
@@ -30,8 +36,9 @@ namespace Solutions.Task_8
                     FuelVolume -= stopWatch.ElapsedMilliseconds * 10;
                 }
 
-                if (FuelVolume == 0)
+                if (FuelVolume <= 0)
                 {
+                    FuelVolume = 0;
                     State = FurnaceState.Empty;
                     OutOfFuel?.Invoke(this);
                 }
