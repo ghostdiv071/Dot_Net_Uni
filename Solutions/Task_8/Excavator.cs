@@ -1,5 +1,4 @@
-﻿using System.Drawing;
-using System.Threading;
+﻿using System.Threading;
 
 namespace Solutions.Task_8
 {
@@ -7,13 +6,16 @@ namespace Solutions.Task_8
     {
         public int FuelVolume { get; } = 5000;
         public bool Busy { get; set; }
+        public int X { get; set; }
+        public int Y { get; set; }
         public string Path { get; } = Paths.Excavator;
-        public Point Position { get; set; }
+        
         
         public void LoadFuel(BlastFurnace furnace)
         {
             Busy = true;
-            Position = new Point(furnace.Position.X+100, furnace.Position.Y);
+            X = furnace.X + 100;
+            Y = furnace.Y;
             Thread.Sleep(FuelVolume);
             furnace.FuelVolume = FuelVolume;
             furnace.State = FurnaceState.Working;

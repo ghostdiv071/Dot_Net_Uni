@@ -15,15 +15,11 @@ namespace Task_8_UI
     {
         private Factory Factory { get; } = new Factory();
         private Graphics _graphics;
+        private int FYStart = 10;  
+        
         public Form1()
         {
             InitializeComponent();
-            BlastFurnace bf1 = new BlastFurnace(new Point(300, 10));
-            BlastFurnace bf2 = new BlastFurnace(new Point(300, 100));
-            Factory.Furnaces.Add(bf1);
-            Factory.Furnaces.Add(bf2);
-            Factory.StartFurnace(bf1);
-            Factory.StartFurnace(bf2);
             Factory.Update += Repaint;
         }
 
@@ -38,26 +34,26 @@ namespace Task_8_UI
             _graphics.Clear(Color.White);
             foreach (var furnace in Factory.Furnaces)
             {
-                Drawing(100, 100, furnace.Position, Paths.Furnace);
+                Drawing(100, 100, new Point(furnace.X, furnace.Y), Paths.Furnace);
                 if (furnace.State== FurnaceState.Empty)
                 {
-                    _graphics.DrawString("I'm empty!", new Font("Arial", 16), new SolidBrush(Color.Green), furnace.Position );
+                    _graphics.DrawString("I'm empty!", new Font("Arial", 16), new SolidBrush(Color.Green), new Point(furnace.X, furnace.Y) );
                 }
 
                 if (furnace.State == FurnaceState.Overheat)
                 {
-                    _graphics.DrawString("I'm overheat!", new Font("Arial", 16), new SolidBrush(Color.Red), new PointF(furnace.Position.X, furnace.Position.Y+50) );
+                    _graphics.DrawString("I'm overheat!", new Font("Arial", 16), new SolidBrush(Color.Red), new PointF(furnace.X, furnace.Y+50) );
                 }
             }
 
-            Drawing(100, 100, !Factory.Worker.Busy ? new Point(10, 10) : Factory.Worker.Position, Factory.Worker.Path);
+            Drawing(100, 100, !Factory.Worker.Busy ? new Point(10, 10) : new Point(Factory.Worker.X, Factory.Worker.Y), Factory.Worker.Path);
 
-            Drawing(100, 100, !Factory.BeltLoader.Busy ? new Point(650, 10) : Factory.BeltLoader.Position, Paths.Belt);
+            Drawing(100, 100, !Factory.BeltLoader.Busy ? new Point(650, 10) : new Point(Factory.BeltLoader.X, Factory.BeltLoader.Y), Paths.Belt);
 
-            Drawing(100, 100, !Factory.BucketLoader.Busy ? new Point(650, 100) : Factory.BucketLoader.Position,
+            Drawing(100, 100, !Factory.BucketLoader.Busy ? new Point(650, 100) : new Point(Factory.BucketLoader.X, Factory.BucketLoader.Y),
                 Paths.Bucket);
 
-            Drawing(100, 100, !Factory.Excavator.Busy ? new Point(650, 200) : Factory.Excavator.Position,
+            Drawing(100, 100, !Factory.Excavator.Busy ? new Point(650, 200) : new Point(Factory.Excavator.X, Factory.Excavator.Y),
                 Paths.Excavator);
         }
         
@@ -68,6 +64,18 @@ namespace Task_8_UI
             var image = new Bitmap(bitmap, size);
             var point = position;
             _graphics.DrawImage(image, point);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (Factory.Furnaces.Count == 4)
+            {
+                return;
+            }
+            var f = new BlastFurnace(300, FYStart);
+            FYStart += 90;
+            Factory.Furnaces.Add(f);
+            Factory.StartFurnace(f);
         }
     }
 }

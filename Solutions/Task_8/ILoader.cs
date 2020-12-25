@@ -6,7 +6,8 @@ namespace Solutions.Task_8
     {
         int FuelVolume { get; }
         bool Busy { get; set; }
-        Point Position { set; get; }
+        int X { get; set; }
+        int Y { get; set; }
         void LoadFuel(BlastFurnace furnace);
     }
 }

@@ -7,14 +7,15 @@ namespace Solutions.Task_8
     {
         public int FuelVolume { get; } = 2000;
         public bool Busy { get; set; }
-        public Point Position { set; get; }
-        
+        public int X { get; set; }
+        public int Y { get; set; }
         public string Path { get; } = Paths.Belt;
         
         public void LoadFuel(BlastFurnace furnace)
         {
             Busy = true;
-            Position = new Point(furnace.Position.X+100, furnace.Position.Y);
+            X = furnace.X+100;
+            Y = furnace.Y;
             Thread.Sleep(FuelVolume);
             furnace.FuelVolume = FuelVolume; 
             furnace.State = FurnaceState.Working;
